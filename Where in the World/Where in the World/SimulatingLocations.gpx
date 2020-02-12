@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    
+    <!--
+     Provide one or more waypoints containing a latitude/longitude pair. If you provide one
+     waypoint, Xcode will simulate that specific location. If you provide multiple waypoints,
+     Xcode will simulate a route visiting each waypoint.
+    <wpt lat="37.331705" lon="-122.030237">
+        <name>Cupertino</name>
+        -->
+
+        <!--
+         Optionally provide a time element for each waypoint. Xcode will interpolate movement
+         at a rate of speed based on the time elapsed between each waypoint. If you do not provide
+         a time element, then Xcode will use a fixed rate of speed.
+         
+         Waypoints must be sorted by time in ascending order.
+        <time>2014-09-24T14:55:37Z</time>
+    </wpt>
+    -->
+        <!--
+        https://blackpixel.com/writing/2016/05/simulating-locations-with-xcode-revisited.html
+        -->
+        <wpt lat="41.954" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:42Z</time>
+        </wpt>
+        
+        <wpt lat="41.9535" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:43Z</time>
+        </wpt>
+        
+        <wpt lat="41.953" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:43Z</time>
+        </wpt>
+        
+        <wpt lat="41.9525" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:43Z</time>
+        </wpt>
+        
+        <wpt lat="41.952" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:44Z</time>
+        </wpt>
+        
+        <wpt lat="41.9515" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:43Z</time>
+        </wpt>
+        
+        <wpt lat="41.951" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:45Z</time>
+        </wpt>
+        
+        <wpt lat="41.9505" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:43Z</time>
+        </wpt>
+        
+        <wpt lat="41.950" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:46Z</time>
+        </wpt>
+        
+        <wpt lat="41.9495" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:39Z</time>
+        </wpt>
+        
+        <wpt lat="41.949" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:39Z</time>
+        </wpt>
+        
+        <wpt lat="41.9489" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:39Z</time>
+        </wpt>
+        
+        <wpt lat="41.9488" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:39Z</time>
+        </wpt>
+        
+        <wpt lat="41.9487" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:39Z</time>
+        </wpt>
+        
+        <wpt lat="41.9486" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:39Z</time>
+        </wpt>
+        
+        <wpt lat="41.9485" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:39Z</time>
+        </wpt>
+        
+        <wpt lat="41.9484" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:39Z</time>
+        </wpt>
+        
+        <wpt lat="41.9483" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:39Z</time>
+        </wpt>
+        
+        <wpt lat="41.9482" lon="-87.6545">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:39Z</time>
+        </wpt>
+        
+        <wpt lat="41.9482" lon="-87.6546">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:09Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6547">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:10Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6548">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:11Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6549">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:12Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.655">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:13Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6551">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:14Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6552">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:15Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6553">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:16Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6554">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:17Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6555">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:18Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6556">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:19Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6557">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:20Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6558">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:21Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6559">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:22Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6560">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:23Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6561">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:24Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6562">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:25Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6563">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:26Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6564">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:27Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6565">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:28Z</time>
+        </wpt>
+
+        <wpt lat="41.9481" lon="-87.6566">
+            <name>Chicago</name>
+            <time>2020-02-10T14:55:29Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6567">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:30Z</time>
+        </wpt>
+        
+        <wpt lat="41.9481" lon="-87.6568">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:39Z</time>
+        </wpt>
+        
+        <wpt lat="41.9482" lon="-87.6569">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:39Z</time>
+        </wpt>
+        
+        <wpt lat="41.9483" lon="-87.6570">
+            <name>Chicago</name>
+            <time>2020-02-10T14:56:39Z</time>
+        </wpt>
+        
+</gpx>
