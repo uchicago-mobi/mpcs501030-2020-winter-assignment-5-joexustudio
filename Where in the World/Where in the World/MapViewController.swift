@@ -227,7 +227,7 @@ extension MapViewController: CLLocationManagerDelegate {
             for place in places {
                 // https://developer.apple.com/documentation/corelocation/cllocation/1423689-distance
                 if location.distance(from: CLLocation(latitude: place.coordinate.latitude, longitude: place.coordinate.longitude)) < 200 {
-                    print("User is near \(place.name ?? "")!")
+                    // print("User is near \(place.name ?? "")!")
                 }
             }
         }
@@ -240,17 +240,12 @@ extension MapViewController: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
         if let region = region as? CLCircularRegion {
             let identifier = region.identifier
-            print("User did enter region of \(identifier)!")
+            // print("User did enter region of \(identifier)!")
+            let alert = UIAlertController(title: "Close to \(identifier)", message: "You are near \(identifier)!", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
         }
     }
     
 }
 
-
-
-// TODO:
-// [?] Extra Credit
-// [x] App Icon
-// [x] Comment/Reference/Cleanup
-// [x] README
-// [x] git add/commit/push, pull request
